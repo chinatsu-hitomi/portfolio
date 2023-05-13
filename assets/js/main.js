@@ -128,7 +128,7 @@
     function randomImage ( imgArray, $target){
         var num = Math.random();
         num = Math.floor(num * imgArray.length);
-        $target.attr("src", "/assets/img/common/" + imgArray[num] + ".png");
+        $target.attr("src", "/portfolio/assets/img/common/" + imgArray[num] + ".png");
     };
     
 // });
